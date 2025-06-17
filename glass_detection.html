@@ -1,0 +1,50 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/mechanismlab.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- InstanceBeginEditable name="doctitle" --><title>研究: 可視・赤外同軸画像認識</title><!-- InstanceEndEditable -->
+  	<link rel="stylesheet" type="text/css" href="./css/style2022.css" />
+	<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<header>
+		<p class="logo">
+			<a href="index.html"><strong>東京電機大学 メカニズム研究室</strong></a>
+		</p>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">概要</a></li>
+				<li><a href="research.html">研究テーマ</a></li>
+				<li><a href="publication.html">成果公開</a></li>
+			</ul>	
+		</nav>
+	</header>
+	<main>
+		<!-- InstanceBeginEditable name="content" -->
+        <h1>可視・赤外同軸画像認識</h1>
+		<div class="accordion">
+			<input type="checkbox" id="1" checked="checked"/>
+			<label for="1" class="accordionitem">多波長画像を利用した透明物体と非透明物体の両方に対応したセグメンテーション</label>
+			<div class="accordion-content">
+				<img class="abst-image" src="./img/coaxials_example.jpg" alt="Example images in coaxials dataset" />
+				<p class="abst">街中を移動する自律型ロボットのような自律移動システムにおいては、セマンティックセグメンテーションが重要である。様々な条件下でセグメンテーションを行うためには、1）夜間などの低視認性環境下でのロバストな認識能力、2）ドアや窓に用いられるガラスやアクリルなどの可視光を透過する物体の認識能力が必要となる。これらの要件を満たすためには、RGB画像と赤外線画像を同時に使用することが有効であると考えられる。可視光や赤外線の透過特性は物体によって異なるため、単に従来の意味分割の枠組みに当てはめるだけでは適用できない。例えば、ガラスの向こうに歩行者がいる場合、可視画像はガラスではなく歩行者を捉え、赤外線画像はガラスを捉える。本研究では、透過特性の違いに着目し、3つのストリーム構造を持つ新しいセマンティックセグメンテーション手法を提案する。本手法は、透過特性の違いによる撮像対象の違いを利用し、通常の非透過物体に対する有効な特徴量だけでなく、透明物体の認識に有効な特徴量も抽出する。さらに、可視・赤外同軸データセットである「coaxials」を新たに構築し、従来手法と比較して良好なセグメンテーション性能が得られることを実証した。</p>
+
+				<h3>成果公開</h3>
+
+				<ol>
+					<li>高畑智之, 原田達也, &ldquo;可視・長波長赤外同軸カメラを利用したガラス検出,&rdquo; 第40回日本ロボット学会学術講演会 (RSJ2022), 2B1-03, 2022</li>
+					<li>Atsuro Okazawa, Tomoyuki Takahata, and Tatsuya Harada, &ldquo;Simultaneous transparent and non-transparent objects segmentation with multispectral scenes,&rdquo; <em>The 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2019)</em>, Macao, China, 4–8 November, pp. 4977–4984, 2019. <strong>[<a href="https://doi.org/10.1109/IROS40897.2019.8968095" target="_blank">Proceedings</a>]</strong></li>
+					<li>Coaxials dataset is available on <a href="https://github.com/mil-tokyo/coaxials">github</a>.</li>
+				</ol>
+			</div>
+		</div>
+		<!-- InstanceEndEditable -->
+	</main>
+	<footer>
+		<p class="footer">&copy; 2023 <a href="https://t-tkht.github.io/">Tomoyuki Takahata</a> <a href="https://t-tkht.github.io/jp/">高畑智之</a>（髙畑智之）</p>
+	</footer>
+</body>
+<!-- InstanceEnd --></html>

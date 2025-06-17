@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" --><title>Template of Mechanism Lab WEB site</title><!-- TemplateEndEditable -->
+  	<link rel="stylesheet" type="text/css" href="./css/style2022.css" />
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+		<p class="logo">
+			<a href="index.html"><strong>東京電機大学 メカニズム研究室</strong></a>
+		</p>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">概要</a></li>
+				<li><a href="research.html">研究テーマ</a></li>
+				<li><a href="publication.html">成果公開</a></li>
+			</ul>	
+		</nav>
+	</header>
+	<main>
+		<!-- TemplateBeginEditable name="content" -->
+		<div class="row">
+			<div class="top-news">
+				<h1>News</h1>
+				<ul>
+					<li>日本経済新聞の記事について東京電機大学ウェブサイトのニュースで紹介されました。（2023年4月13日）<a href="https://www.dendai.ac.jp/news/20230413-01.html">先端機械工学科 高畑准教授の研究が日本経済新聞に掲載</a></li>
+					<li>可視・赤外同軸カメラの研究が日本経済新聞に掲載されました。（2023年4月9日）<a href="https://www.nikkei.com/article/DGKKZO70029310Y3A400C2MY1000/">ロボット百景(6) 透明ガラスとの衝突回避</a></li>
+					<li>メカニズム研究室に4年生が2名配属されました。（2023年4月1日）</li>
+					<li>東京電機大学メカニズム研究室が新設されました。（2023年4月1日）</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<img class="face-photo" src="./img/takahata2022.jpg" alt="takahata" />
+			<h3>高畑智之</h3>
+			<p class="affiliation">
+				東京電機大学<br />
+				工学部 先端機械工学科<br />
+				准教授
+			</p>
+		</div>
+		
+		<div class="row">
+			<div class="col green-box">
+				<div class="research-category">
+					<h2>AI: 発明する人工知能</h2>
+					<ul>
+						<li><a href="mobile_robot_designer.html">移動ロボットの自動設計</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col beige-box">
+				<div class="research-category">
+					<h2>Robot: モビリティロボット</h2>
+					<ul>
+						<li><a href="wheelchair_robot.html">電動車椅子型ロボット</a></li>
+						<li><a href="stair_climbing_robot.html">階段昇降ロボット</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col red-box">
+				<div class="research-category">
+					<h2>Vision: 可視・赤外カメラ, 同軸画像認識</h2>
+					<ul>
+						<li><a href="coaxial_camera.html">可視・赤外同軸カメラ</a></li>
+						<li><a href="glass_detection.html">同軸画像による物体認識</a></li>
+						<li><a href="hybrid_lens.html">可視・赤外ハイブリッドレンズ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<h1>シリコン–ガラスハイブリッドレンズを用いた同軸撮影</h1>
+		<div class="accordion">
+			<input type="checkbox" id="1"/>
+			<label for="1" class="accordionitem">色・温度撮影のためのシリコン–ガラスハイブリッドレンズ</label>
+			<div class="accordion-content">
+				<img class="abst-image" src="./img/hybrid_lens.jpg" alt="silicon–glass hybrid lens" />
+				<p class="abst">可視光と長波長赤外（LWIR）を集光するシリコン-ガラスハイブリッドレンズを用いて、同じ視点から同じ画角の色画像と温度画像を撮影できることを示した。このレンズはシリコンの3次元加工プロセスを用いて作製した。このハイブリッドレンズを用いて色画像と温度画像を撮影した。色画像と温度画像の変位量の差の最大値と平均値はそれぞれ0.42 mmと0.26 mmであった。また、角度の差の最大値と平均値はそれぞれ2.0&deg;と1.2&deg;であった。</p>
+
+				<h3>Publications</h3>
+				<ol>
+					<li>Tomoyuki Takahata, Kiyoshi Matsumoto, and Isao Shimoyama, &ldquo;A silicon-glass hybrid lens for simultaneous color-and-thermal imaging,&rdquo; <em>The 17th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers 2013 &amp; Eurosensors XXVII)</em>, pp. 1408-1411, Barcelona, Spain, 16–20 June, 2013. <strong>[<a href="http://dx.doi.org/10.1109/Transducers.2013.6627042" target="_blank">Proceedings</a>]</strong></li>
+				</ol>
+			</div>
+		</div>
+		<div class="accordion">
+			<input type="checkbox" id="2"/>
+			<label for="2" class="accordionitem">シリコン–ガラスハイブリッドレンズを用いた小型の温度・色同軸撮像システム</label>
+			<div class="accordion-content">
+				<img class="abst-image" src="./img/coaxial_imaging_rsj2015.jpg" alt="coaxial imaging system" />
+				<p class="abst">人間の生活を支援するサービスロボットにとって人間を検知することは最も重要な機能の一つである。温度画像は人体検知に役立つ。温度画像は色画像に比べて画素数が少ないため、色画像と組み合わせることでより有用となる。本論文では、温度画像と色画像を同時に得るための小型の光学系を提案する。長波長赤外と可視光を集光できるシリコン-ガラスハイブリッドレンズを使用することがポイントである。集光された光はシリコン板で分割され、温度画像と色画像がそれぞれサーマルイメージャとカラーイメージャで撮影される。レンズの位置によって、温度画像と色画像の対応関係を保ったままで焦点面を調整できることを実験的に明らかにした。</p>
+
+				<h3>Publications</h3>
+				<ol>
+					<li>高畑智之, 松本潔, 下山勲, &ldquo;シリコン–ガラスハイブリッドレンズを用いた温度画像・色画像同軸撮影システム,&rdquo; 第33回日本ロボット学会学術講演会 (RSJ2015), 1H1-01, 2015.</li>
+					<li>高畑智之, 松本潔, 下山勲, &ldquo;同一視点から温度画像と色画像を撮影できる同軸撮影システム,&rdquo; 第22回画像センシングシンポジウム (SSII2016), 2016.</li>
+					<li>Tomoyuki Takahata, Kiyoshi Matsumoto, and Isao Shimoyama, &ldquo;Compact coaxial thermal and color imaging system with silicon-glass hybrid lens,&rdquo; <em>IEEE International Conference on Robotics and Automation (ICRA2016)</em>, Stockholm, Sweden, 16–21 May, 2016. <strong>[<a href="http://dx.doi.org/10.1109/ICRA.2016.7487772" target="_blank">Proceedings</a>]</strong></li>
+					<li>高畑智之, 下山勲, &ldquo;可視光・遠赤外光同軸撮像システムの実装と評価,&rdquo; 第35回日本ロボット学会学術講演会, 3C3-01, 2017.</li>
+				</ol>
+			</div>
+		</div>
+		<div class="accordion">
+			<input type="checkbox" id="3"/>
+			<label for="3" class="accordionitem">防滴性を持つ同軸カメラ</label>
+			<div class="accordion-content">
+				<img class="abst-image" src="./img/coaxial_camera_rsj2018.jpg" alt="splashproof coaxial imaging system" />
+				<p class="abst">本研究では、色画像と温度画像を同一の視野で撮影する可視・長波長赤外同軸システムについて、防滴性能をもたせる実装方法を示した。同軸撮影システムについてはこれまでに防塵性を考慮したシステムの研究の例があったが、防滴性能がなく雨天などで水滴がかかるとシステムが壊れる可能性があった。</p>
+
+				<h3>Publications</h3>
+				<ol>
+					<li>高畑智之, 下山勲, “防滴性のある可視光・遠赤外光同軸撮影システム,” 第36回日本ロボット学会学術講演会, 3J3-04, 2018.</li>
+				</ol>
+			</div>
+		</div>
+		<div class="accordion">
+			<input type="checkbox" id="4"/>
+			<label for="4" class="accordionitem">同軸性の評価</label>
+			<div class="accordion-content">
+				<img class="abst-image" src="./img/coaxiality_evaluation.jpg" alt="coaxiality evaluation" />
+				<p class="abst">Thermal imaging is useful for tasks such as detecting the presence of humans and recognizing surrounding objects in the operation of several types of robots, including service robots and personal mobility robots, which assist humans. Because the number of pixels on a thermal imager is generally smaller than that on a color imager, thermal images are more useful when combined with color images, assuming that the correspondence between points in the images captured by the two sensors is known. In the literature, several types of coaxial imaging systems have been reported that can capture thermal and color images, simultaneously, from the same point of view with the same optical axis. Among them, a coaxial imaging system using a concentric silicon–glass hybrid lens was devised. Long-wavelength infrared and visible light was focused using the hybrid lens. The focused light was subsequently split using a silicon plate. Separate thermal and color images were then captured using thermal and color imagers, respectively. However, a coaxiality evaluation of the hybrid lens has not been shown. This report proposes an implementation and coaxiality evaluation for a compact coaxial imaging system incorporating the hybrid lens. The coaxiality of the system was experimentally demonstrated by estimating the intrinsic and extrinsic parameters of the thermal and color imagers and performing 2D mapping between the thermal images and color images.</p>
+
+				<h3>Publications</h3>
+				<ol>
+					<li>Tomoyuki Takahata, &ldquo;Coaxiality evaluation of coaxial imaging system with concentric silicon–glass hybrid lens for thermal and color imaging,&rdquo; Sensors, vol. 20, no. 20, article no. 5753 (19 pages), 2020. <strong>[<a href="https://doi.org/10.3390/s20205753" target="_blank">Paper</a>]</strong> (Published on 10 October 2020) </li>
+				</ol>
+			</div>
+		</div>
+		
+		<!-- TemplateEndEditable -->
+	</main>
+	<footer>
+		<p class="footer">&copy; 2023 <a href="https://t-tkht.github.io/">Tomoyuki Takahata</a> <a href="https://t-tkht.github.io/jp/">高畑智之</a>（髙畑智之）</p>
+	</footer>
+</body>
+</html>
