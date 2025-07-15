@@ -13,14 +13,14 @@
 <body>
 	<header>
 		<p class="logo">
-			<a href="index.html"><strong>東京電機大学 メカニズム研究室</strong></a>
+			<a href="https://tdu-mechanism-lab.github.io/"><strong>東京電機大学 メカニズム研究室</strong></a>
 		</p>
 		<nav class="nav">
 			<ul>
 				<a href="https://www.instagram.com/tdu_mechanism_lab/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-instagram fa-xl" style="color: #FF0069;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-x-twitter fa-xl" style="color: #000000;"></i></a>
-				<li><a href="index.html">概要</a></li>
-				<li><a href="research.html">研究テーマ</a></li>
-				<li><a href="publication.html">成果公開</a></li>
+				<li><a href="https://tdu-mechanism-lab.github.io/">概要</a></li>
+				<li><a href="https://tdu-mechanism-lab.github.io/research.html">研究テーマ</a></li>
+				<li><a href="https://tdu-mechanism-lab.github.io/publication.html">成果公開</a></li>
 			</ul>	
 		</nav>
 	</header>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<img class="face-photo" src="./img/takahata2022.jpg" alt="takahata" />
+			<img class="face-photo" src="https://tdu-mechanism-lab.github.io/img/takahata2022.jpg" alt="takahata" />
 			<h3>高畑智之</h3>
 			<p class="affiliation">
 				東京電機大学<br />
@@ -52,7 +52,7 @@
 				<div class="research-category">
 					<h2>AI: 発明する人工知能</h2>
 					<ul>
-						<li><a href="mobile_robot_designer.html">移動ロボットの自動設計</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/mobile_robot_designer.html">移動ロボットの自動設計</a></li>
 					</ul>
 				</div>
 			</div>
@@ -60,8 +60,8 @@
 				<div class="research-category">
 					<h2>Robot: モビリティロボット</h2>
 					<ul>
-						<li><a href="wheelchair_robot.html">電動車椅子型ロボット</a></li>
-						<li><a href="stair_climbing_robot.html">階段昇降ロボット</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/wheelchair_robot.html">電動車椅子型ロボット</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/stair_climbing_robot.html">階段昇降ロボット</a></li>
 					</ul>
 				</div>
 			</div>
@@ -69,9 +69,9 @@
 				<div class="research-category">
 					<h2>Vision: 可視・赤外カメラ, 同軸画像認識</h2>
 					<ul>
-						<li><a href="coaxial_camera.html">可視・赤外同軸カメラ</a></li>
-						<li><a href="glass_detection.html">同軸画像による物体認識</a></li>
-						<li><a href="hybrid_lens.html">可視・赤外ハイブリッドレンズ</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/coaxial_camera.html">可視・赤外同軸カメラ</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/glass_detection.html">同軸画像による物体認識</a></li>
+						<li><a href="https://tdu-mechanism-lab.github.io/hybrid_lens.html">可視・赤外ハイブリッドレンズ</a></li>
 					</ul>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 			<input type="checkbox" id="1"/>
 			<label for="1" class="accordionitem">色・温度撮影のためのシリコン–ガラスハイブリッドレンズ</label>
 			<div class="accordion-content">
-				<img class="abst-image" src="./img/hybrid_lens.jpg" alt="silicon–glass hybrid lens" />
+				<img class="abst-image" src="https://tdu-mechanism-lab.github.io//img/hybrid_lens.jpg" alt="silicon–glass hybrid lens" />
 				<p class="abst">可視光と長波長赤外（LWIR）を集光するシリコン-ガラスハイブリッドレンズを用いて、同じ視点から同じ画角の色画像と温度画像を撮影できることを示した。このレンズはシリコンの3次元加工プロセスを用いて作製した。このハイブリッドレンズを用いて色画像と温度画像を撮影した。色画像と温度画像の変位量の差の最大値と平均値はそれぞれ0.42 mmと0.26 mmであった。また、角度の差の最大値と平均値はそれぞれ2.0&deg;と1.2&deg;であった。</p>
 
 				<h3>Publications</h3>
@@ -95,7 +95,7 @@
 			<input type="checkbox" id="2"/>
 			<label for="2" class="accordionitem">シリコン–ガラスハイブリッドレンズを用いた小型の温度・色同軸撮像システム</label>
 			<div class="accordion-content">
-				<img class="abst-image" src="./img/coaxial_imaging_rsj2015.jpg" alt="coaxial imaging system" />
+				<img class="abst-image" src="https://tdu-mechanism-lab.github.io//img/coaxial_imaging_rsj2015.jpg" alt="coaxial imaging system" />
 				<p class="abst">人間の生活を支援するサービスロボットにとって人間を検知することは最も重要な機能の一つである。温度画像は人体検知に役立つ。温度画像は色画像に比べて画素数が少ないため、色画像と組み合わせることでより有用となる。本論文では、温度画像と色画像を同時に得るための小型の光学系を提案する。長波長赤外と可視光を集光できるシリコン-ガラスハイブリッドレンズを使用することがポイントである。集光された光はシリコン板で分割され、温度画像と色画像がそれぞれサーマルイメージャとカラーイメージャで撮影される。レンズの位置によって、温度画像と色画像の対応関係を保ったままで焦点面を調整できることを実験的に明らかにした。</p>
 
 				<h3>Publications</h3>
@@ -111,7 +111,7 @@
 			<input type="checkbox" id="3"/>
 			<label for="3" class="accordionitem">防滴性を持つ同軸カメラ</label>
 			<div class="accordion-content">
-				<img class="abst-image" src="./img/coaxial_camera_rsj2018.jpg" alt="splashproof coaxial imaging system" />
+				<img class="abst-image" src="https://tdu-mechanism-lab.github.io//img/coaxial_camera_rsj2018.jpg" alt="splashproof coaxial imaging system" />
 				<p class="abst">本研究では、色画像と温度画像を同一の視野で撮影する可視・長波長赤外同軸システムについて、防滴性能をもたせる実装方法を示した。同軸撮影システムについてはこれまでに防塵性を考慮したシステムの研究の例があったが、防滴性能がなく雨天などで水滴がかかるとシステムが壊れる可能性があった。</p>
 
 				<h3>Publications</h3>
@@ -124,7 +124,7 @@
 			<input type="checkbox" id="4"/>
 			<label for="4" class="accordionitem">同軸性の評価</label>
 			<div class="accordion-content">
-				<img class="abst-image" src="./img/coaxiality_evaluation.jpg" alt="coaxiality evaluation" />
+				<img class="abst-image" src="https://tdu-mechanism-lab.github.io//img/coaxiality_evaluation.jpg" alt="coaxiality evaluation" />
 				<p class="abst">Thermal imaging is useful for tasks such as detecting the presence of humans and recognizing surrounding objects in the operation of several types of robots, including service robots and personal mobility robots, which assist humans. Because the number of pixels on a thermal imager is generally smaller than that on a color imager, thermal images are more useful when combined with color images, assuming that the correspondence between points in the images captured by the two sensors is known. In the literature, several types of coaxial imaging systems have been reported that can capture thermal and color images, simultaneously, from the same point of view with the same optical axis. Among them, a coaxial imaging system using a concentric silicon–glass hybrid lens was devised. Long-wavelength infrared and visible light was focused using the hybrid lens. The focused light was subsequently split using a silicon plate. Separate thermal and color images were then captured using thermal and color imagers, respectively. However, a coaxiality evaluation of the hybrid lens has not been shown. This report proposes an implementation and coaxiality evaluation for a compact coaxial imaging system incorporating the hybrid lens. The coaxiality of the system was experimentally demonstrated by estimating the intrinsic and extrinsic parameters of the thermal and color imagers and performing 2D mapping between the thermal images and color images.</p>
 
 				<h3>Publications</h3>
