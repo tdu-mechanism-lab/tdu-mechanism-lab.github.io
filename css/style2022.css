@@ -42,6 +42,10 @@ ol {
 	margin: 10px 50px;
 }
 
+ul {
+	margin: 0px 50px;
+}
+
 img.face-photo {
 	width: 150px;
 	margin: 0px 10px;
@@ -239,6 +243,24 @@ input[type=checkbox] + label:before {
 input[type=checkbox]:checked + label:before {
 	transform: rotate(45deg);
 }
+
+summary {
+	font-size: 18px;
+	padding: 15px;
+	list-style-type: none;
+}
+summary::-webkit-details-marker {
+	display: none;
+}
+summary:before {
+	content: "＋";
+}
+details[open] summary:before,
+summary details[open] summary:before {
+	content: "−";
+}
+
+
 
 /* For tablets */
 @media (min-width: 768px){
