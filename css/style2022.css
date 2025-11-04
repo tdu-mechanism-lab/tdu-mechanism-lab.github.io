@@ -46,6 +46,10 @@ ul {
 	margin: 0px 50px;
 }
 
+ul.research-items {
+	margin: 0px 0px;
+}
+
 img.face-photo {
 	width: 150px;
 	margin: 0px 10px;
