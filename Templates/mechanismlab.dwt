@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- TemplateBeginEditable name="doctitle" --><title>Template of Mechanism Lab WEB site</title><!-- TemplateEndEditable -->
-  	<link rel="stylesheet" type="text/css" href="./css/style2022.css" />
+  	<link rel="stylesheet" type="text/css" href="./css/style2026.css" />
 	<!-- TemplateBeginEditable name="head" -->
 	<!-- TemplateEndEditable -->
 	<link href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" rel="stylesheet">
@@ -12,17 +12,19 @@
 
 <body>
 	<header>
-		<p class="logo">
-			<a href="https://tdu-mechanism-lab.github.io/"><strong>東京電機大学 メカニズム研究室</strong></a>
-		</p>
-		<nav class="nav">
-			<ul>
-				<a href="https://www.instagram.com/tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-instagram fa-xl" style="color: #FF0069;"></i></a>&nbsp;&nbsp;<!--<a href="https://x.com/tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-x-twitter fa-xl" style="color: #000000;"></i></a>&nbsp;&nbsp;--><a href="https://www.youtube.com/@tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-youtube fa-xl" style="color: #FF0000;"></i></a>
-				<li><a href="https://tdu-mechanism-lab.github.io/">概要</a></li>
-				<li><a href="https://tdu-mechanism-lab.github.io/research.html">研究テーマ</a></li>
-				<li><a href="https://tdu-mechanism-lab.github.io/publication.html">成果公開</a></li>
-			</ul>	
-		</nav>
+		<div class="head">
+			<p class="logo">
+				<a href="https://tdu-mechanism-lab.github.io/"><img src="img/logo/ML.png" alt="Logotype of Mechanism Lab."></a>
+			</p>
+			<nav class="nav">
+				<ul>
+					<a href="https://www.instagram.com/tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-instagram fa-xl" style="color: #FF0069;"></i></a>&nbsp;&nbsp;<!--<a href="https://x.com/tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-x-twitter fa-xl" style="color: #000000;"></i></a>&nbsp;&nbsp;--><a href="https://www.youtube.com/@tdu_mechanism/" rel="nofollow noopener noreferrer"><i class="fa-brands fa-youtube fa-xl" style="color: #FF0000;"></i></a>
+					<li><a href="https://tdu-mechanism-lab.github.io/">概要</a></li>
+					<li><a href="https://tdu-mechanism-lab.github.io/research.html">研究テーマ</a></li>
+					<li><a href="https://tdu-mechanism-lab.github.io/publication.html">成果公開</a></li>
+				</ul>	
+			</nav>
+		</div>
 	</header>
 	<main>
 		<!-- TemplateBeginEditable name="content" -->
